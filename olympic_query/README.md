@@ -1,7 +1,7 @@
 <h1>Olympic Query</h1>
 
 ### Source:
-[Database Star MySQL Sample Data GitHub Repository](https://github.com/bbrumm/databasestar/tree/main/sample_databases/sample_db_olympics/mysql)
+[Database Star MySQL Sample Data](https://github.com/bbrumm/databasestar/tree/main/sample_databases/sample_db_olympics/mysql)
 
 ### Background/Context:
 This data set provides historical Olympic data; however, the data is split up into several tables.
