@@ -1,7 +1,7 @@
 <h1>Divvy Query</h1>
 
 ### Date:
-May 2024
+July 2024
 
 ### Source:
 [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
