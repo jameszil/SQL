@@ -48,7 +48,7 @@ Once I created this, I realized this could've been achieved by simply using GROU
 <img src="https://github.com/jameszil/pictures/blob/main/SQL/UN%20Population%20Growth%20by%20Region%20GROUP%20BY.png?raw=true" height="70%" width="70%" alt="Query Steps"/>
 <img src="https://github.com/jameszil/pictures/blob/main/SQL/UN%20Population%20Growth%20by%20Region%20GROUP%20BY%20Table.png?raw=true" height="70%" width="70%" alt="Query Steps"/>
 
-For my last query using this dataset, I wanted to come up with a list of countries that met a very specific criteria. I wanted to see countries with a high population growth rate and relatively low average childbearing age. 41 countries had a population growth rate greater than 2 and an average childbearing age less than 30. This query was less about drawing a conclusion and more about exploring different filtering possibilities within the same data to get a different output of countries for population growth, a metric we'd previously looked at.
+For my last query using this dataset, I wanted to come up with a list of countries that met a very specific criteria. I wanted to see countries with a high population growth rate and relatively low average childbearing age. 41 countries had a population growth rate greater than 2 and an average childbearing age less than 30. This query was less about drawing a conclusion and more about exploring different filtering possibilities within the same data to get a different output of countries for population growth, a metric I'd previously looked at.
 
 <img src="https://github.com/jameszil/pictures/blob/main/SQL/UN%20Pop%20Growth%20and%20Childbearing%20Age.png?raw=true" height="70%" width="70%" alt="Query Steps"/>
 
