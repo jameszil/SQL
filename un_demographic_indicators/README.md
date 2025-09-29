@@ -40,7 +40,6 @@ Then I pulled just the UN Sustainable Development Goals regions regardless of ye
 
 This output could be used to compare with other studies such as the demographic transition which states that more developed nations tend to have slower birth rates and population growth rates. Of course is not always the case, but there is a general correlation between indexes that track human development and population growth rates. From a quick glance of this simple table output we can see the top and bottom regions affirm this while the other regions in between may be slightly more complex. In recent years there has been a shift to not group countries in the traditional geographic regions that we have used for decades as the diaspora of countries with high and low population growth rates among other valuable metrics varies greatly within each region. When looking at region based outputs we should understand there is always more to discover than what we can see on a rolled up snapshot, but they this view still provides a valuable quick look at the data without having to dig too deep. Many stakeholders prefer high level outputs like this one.
 <br />
-<br />
 #### Population Growth Rate by Region
 <img src="https://github.com/jameszil/pictures/blob/main/SQL/UN%20Population%20Growth%20by%20Region.png?raw=true" height="70%" width="70%" alt="Query Steps"/>
 
