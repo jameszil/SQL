@@ -1,5 +1,8 @@
 <h1>Olympic Query</h1>
 
+### Date:
+May 2024
+
 ### Source:
 [Database Star MySQL Sample Data](https://github.com/bbrumm/databasestar/tree/main/sample_databases/sample_db_olympics/mysql)
 
