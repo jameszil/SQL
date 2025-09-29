@@ -4,11 +4,9 @@
 June 2025
 
 ### Source:
-[Gapminder.org/data](https://www.gapminder.org/data/)
+[FREE DATA FROM WORLD BANK VIA GAPMINDER.ORG, CC-BY LICENSE](https://www.gapminder.org/data/)
 
 [Gapminder Mean Income - Dataset](http://gapm.io/dmincpcap_cppp)
-
-FREE DATA FROM WORLD BANK VIA GAPMINDER.ORG, CC-BY LICENSE
 
 ### Background/Context:
 This data was provided by Gapminder and comes from the World Bank
