@@ -17,8 +17,6 @@ Merge tables and identify which country received the most gold medals in the 201
 - Joined Tables and Created an Entity Relationship Diagram (ERD)
 - Query Including Multiple Joins and Common Table Expression (CTE)
 
-
-
 <h2>Query Output:</h2>
 
 <p align="left">
