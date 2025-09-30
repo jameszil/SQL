@@ -31,7 +31,7 @@ I created another query utilizing FORMAT(COUNT(*),0) to see easily see the rider
 <img src="https://github.com/jameszil/pictures/blob/main/SQL/divvy%20Rider%20Classification%20Case%20Subquery.png?raw=true" height="80%" width="80%" alt="Query Steps"/>
 <br />
 <br />
-As there was latitude and longitude fields in this data set, I was also able to connect to the MySQL local database I created and map this data within QGIS. See more of my GIS projects *here*.
+As there was latitude and longitude fields in this data set, I was also able to connect to the MySQL local database I created and map this data within QGIS.
 <br />
 <br />
 <img src="https://github.com/jameszil/pictures/blob/main/SQL/qgis_mysql%203.png?raw=true" height="80%" width="80%" alt="Query Steps"/>
