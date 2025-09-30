@@ -43,5 +43,6 @@ We can see that Guyana has by far had the greastest increase in daily income by 
 <br />
 <br />
 Then I was able to create a similar query to show the change of life expectancy over a 20 year period for each country. After that, I created two subqueries and wrapped these in Common Table Expressions (CTEs). I was able to join the CTEs into a single query to get both outputs to populate in a succinct table. The CTEs help organize both the query and the result grid for readability. The user can filter on LifeExpPctChange or simply change the ORDER BY statement to quickly see the countries with the biggest change in life expectancy.
+<br />
 
-
+See my [Gapminder R Script](https://github.com/jameszil/R/tree/main/daily_income) where I use this dataset to plot trending views of daily income over time.
