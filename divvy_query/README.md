@@ -35,6 +35,9 @@ As there was latitude and longitude fields in this data set, I was also able to 
 <br />
 <br />
 <img src="https://github.com/jameszil/pictures/blob/main/SQL/qgis_mysql%203.png?raw=true" height="80%" width="80%" alt="Query Steps"/>
+<br />
+
+[See my GIS projects here](https://github.com/jameszil/GIS/tree/main)
 
 
 
