@@ -28,7 +28,7 @@ First I created a rolling calculation of the company's profit which takes the su
 From the first few rows it is hard to decipher the difference between these calculated fields, here is a snapshot of the bottom rows of the output to show the functionality of each. The running total adds everything and the running average incrementally changes over time, taking all rows into consideration whereas the rolling total and rolling average fields are only taking the preceding 5 rows and the current row.
 <br />
 <br />
-<img src="https://github.com/jameszil/pictures/blob/main/SQL/Superstore%20Rolling%20Calcutions%20Bottom.png?raw=true" height="80%" width="80%" alt="Query Steps"/>
+<img src="https://github.com/jameszil/pictures/blob/main/SQL/Superstore%20Rolling%20Calcutions%20Bottom.png?raw=true" height="70%" width="70%" alt="Query Steps"/>
   
 #### Trend and Gap Analysis
 Next I experimented with First Value, Nth Value, Lead, and Lag to compare the profits between rows. I partitioned these by Category to see the first and second dollar amounts that came through for that given Category and also the next and previous profit comparing that particular row. This can be very valuable to identify trends in sales data across particular fields.
