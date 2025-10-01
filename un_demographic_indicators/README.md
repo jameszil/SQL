@@ -53,3 +53,5 @@ For my last query using this dataset, I wanted to come up with a list of countri
 
 <img src="https://github.com/jameszil/pictures/blob/main/SQL/UN%20Pop%20Growth%20and%20Childbearing%20Age.png?raw=true" height="70%" width="70%" alt="Query Steps"/>
 
+See my [Developmental Comparisons R Script](https://github.com/jameszil/R/tree/main/developmental_comparisons) where I analyze more UN data.
+
