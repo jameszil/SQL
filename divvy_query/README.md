@@ -7,7 +7,7 @@ July 2024
 [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
 ### Background/Context:
-Divvy is a bike sharing system in Chicago. The raw data was provided for practice during the Google Data Analytics Certification.
+Divvy is a bike sharing system in Chicago. The raw data was provided for practice during the [Google Data Analytics Certification](https://www.coursera.org/professional-certificates/google-data-analytics).
 
 ### Objective:
 Gain insights on Divvy bike usage in Chicago by identifying the top 10 stations for classic bike users and create custom classification based on bikers by member/nonmember and bike type.
