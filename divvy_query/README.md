@@ -31,7 +31,7 @@ I created another query utilizing FORMAT(COUNT(*),0) to see easily see the rider
 <img src="https://github.com/jameszil/pictures/blob/main/SQL/divvy%20Rider%20Classification%20Case%20Subquery.png?raw=true" height="80%" width="80%" alt="Query Steps"/>
 <br />
 <br />
-As there was latitude and longitude fields in this data set, I was also able to connect to the MySQL local server and database I created and map this data within QGIS. I imported the attribute table into QGIS from MySQL server by entering name, host, port, database, and table within QGIS, logging in the host user and password. Once I pulled the desired tables I created a point vector from the coordinates to map the location of each bike rental station in Chicago.
+As there was latitude and longitude fields in this data set, I was also able to connect to the MySQL local server and database I created and map this data within QGIS. I imported the attribute table into QGIS from MySQL server by entering name, host, port, database, and table within QGIS, logging in the host user and password. Once I pulled the desired table, I created a point vector from the coordinates to map the location of each bike rental station in Chicago.
 <br />
 <br />
 <img src="https://github.com/jameszil/pictures/blob/main/SQL/qgis_mysql%203.png?raw=true" height="80%" width="80%" alt="Query Steps"/>
