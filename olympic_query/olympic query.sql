@@ -146,7 +146,7 @@ SELECT *
 FROM OlympicGold;
 
 
--- 2012 Olympic Games Gold Medal Count by Country Using CTE
+-- 2012 Olympic Games Gold Medal Count by Country Using CTE FALSE
 WITH ol AS
 	(SELECT medal_name, region_name, games_year, games_name
 	FROM olympics.medal AS med
@@ -166,6 +166,33 @@ WHERE ol.medal_name = 'Gold' AND ol.games_year = 2012
 GROUP BY country, medal, 'year'
 HAVING medal_count > 0
 ORDER BY medal_count DESC;
+
+
+
+
+-- 2012 Olympic Games Gold Medal Count by Country Using CTE
+WITH ol AS
+	(SELECT medal_name, region_name, games_year, games_name, event_name
+	FROM olympics.medal AS med
+	JOIN olympics.competitor_event AS compev ON med.id = compev.medal_id
+	JOIN olympics.games_competitor AS GC ON GC.id = compev.competitor_id
+	JOIN olympics.person AS pers ON GC.person_id = pers.id
+	JOIN olympics.person_region AS persreg ON pers.id = persreg.person_id
+	JOIN olympics.noc_region AS nocreg ON persreg.region_id = nocreg.id
+	JOIN olympics.games as gam ON GC.games_id = gam.id
+	JOIN olympics.event AS event ON compev.event_id = event.id)
+SELECT
+	ol.region_name AS country,
+	COUNT(DISTINCT ol.event_name) AS medal_count,
+	ol.medal_name AS medal,
+	ol.games_year AS 'year'
+FROM ol
+WHERE ol.medal_name = 'Gold' AND ol.games_year = 2012
+GROUP BY country, medal, 'year'
+HAVING medal_count > 0
+ORDER BY medal_count DESC;
+
+
 
 
 
