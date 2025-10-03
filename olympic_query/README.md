@@ -42,6 +42,7 @@ From the results we can infer that the United States received the most gold meda
 <br />
 Although my statement about the gold medals was correct, I thought the numbers looked a little too high. Just when I thought I was finished, I ran into an error that took me the most time to figure out in the entire query. After further investigating, I realized the medals were adding each athlete's medal which resulted in duplicate medals being counted for team sports. 
 <br />
+<br />
 To fix this issue I had to add one last join to pull in the events name from the events table and did a distinct count by the event name as several athletes on the same team could've each received a gold medal. Once I joined the event table to pull the event name and got a distinct output it matched actual results.
 <br />
 <br />
