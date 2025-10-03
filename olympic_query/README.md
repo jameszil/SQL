@@ -44,6 +44,5 @@ Although my statement about the gold medals was correct, I thought the numbers l
 <br />
 To fix this issue. I had to add one last join to pull in the events name and did a distinct count by the event name as several athletes on the same team could've each received a gold medal. Once I joined the event table to pull the event name and got a distinct output it matched actual results.
 <br />
-<img src="https://github.com/jameszil/pictures/blob/main/SQL/Olympics%20final.png?raw=true" height="40%" width="40%" alt="Olympic Query Steps"/>
+<img src="https://github.com/jameszil/pictures/blob/main/SQL/Olympics%20final.png?raw=true" height="60%" width="60%" alt="Olympic Query Steps"/>
 <br />
-<img src="https://github.com/jameszil/pictures/blob/main/SQL/Olympics%20final%20table.png?raw=true" height="40%" width="40%" alt="Olympic Query Steps"/>
