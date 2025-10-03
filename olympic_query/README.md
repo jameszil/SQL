@@ -48,4 +48,4 @@ To fix this issue I had to add one last join to pull in the events name from the
 <br />
 <img src="https://github.com/jameszil/pictures/blob/main/SQL/Olympics%20final.png?raw=true" height="60%" width="60%" alt="Olympic Query Steps"/>
 <br />
-<img src="https://github.com/jameszil/pictures/blob/main/SQL/Olympics%20final%20table2.png?raw=true" height="30%" width="30%" alt="Olympic Query Steps"/>
+<img src="https://github.com/jameszil/pictures/blob/main/SQL/Olympics%20final%20table2.png?raw=true" height="40%" width="40%" alt="Olympic Query Steps"/>
