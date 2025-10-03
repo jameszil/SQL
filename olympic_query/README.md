@@ -40,9 +40,11 @@ From the results we can infer that the United States received the most gold meda
 <img src="https://github.com/jameszil/pictures/blob/main/SQL/Olympics%20query%20table.png?raw=true" height="40%" width="40%" alt="Olympic Query Steps"/>
 <br />
 <br />
-Although my statement about the gold medals was correct, I thought the numbers looked a little too high.Just when I thought I was finished I ran into the step that took me the most time to figure out in this entire query. After further investigating I realized the medals were adding each athlete's medal which resulted in duplicate medals being counted for team sports. 
+Although my statement about the gold medals was correct, I thought the numbers looked a little too high. Just when I thought I was finished, I ran into an error that took me the most time to figure out in the entire query. After further investigating, I realized the medals were adding each athlete's medal which resulted in duplicate medals being counted for team sports. 
 <br />
-To fix this issue. I had to add one last join to pull in the events name and did a distinct count by the event name as several athletes on the same team could've each received a gold medal. Once I joined the event table to pull the event name and got a distinct output it matched actual results.
+To fix this issue I had to add one last join to pull in the events name from the events table and did a distinct count by the event name as several athletes on the same team could've each received a gold medal. Once I joined the event table to pull the event name and got a distinct output it matched actual results.
+<br />
 <br />
 <img src="https://github.com/jameszil/pictures/blob/main/SQL/Olympics%20final.png?raw=true" height="60%" width="60%" alt="Olympic Query Steps"/>
 <br />
+<img src="https://github.com/jameszil/pictures/blob/main/SQL/Olympics%20final%20table2.png?raw=true" height="30%" width="30%" alt="Olympic Query Steps"/>
